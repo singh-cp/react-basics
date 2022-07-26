@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #21222a;
+  color: #deebf8;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 0 2rem;
+  font-weight: 600;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-logo {
+  color: #61dafb;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.main {
+  background-color: #282d35;
+  color: #ffffff;
+  padding: 0 2rem;
+  height: 90vh;
+  padding-top: 3rem;
+  background-image: url("https://hiretechninjas.com/wp-content/uploads/2021/05/react-grey-icon-1.png");
+  background-position: right -70% center;
+  background-repeat: no-repeat;
+}
+
+.facts-ul {
+  line-height: 1.5rem;
+}
+
+.facts-ul > li {
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+.facts-ul > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+
+.main > h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
