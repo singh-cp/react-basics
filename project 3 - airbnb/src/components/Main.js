@@ -17,20 +17,20 @@ export default function Main() {
         <Card
           img={profilePic}
           status="Sold Out"
-          rating="5.0"
-          reviews="6"
+          rating={5.0}
+          reviews={6}
           country="USA"
           title="Life lessons with Katie Zaferes"
-          price="$136"
+          price={136}
         />
         <Card
           img={profilePic2}
           status="Online"
-          rating="5.0"
-          reviews="30"
+          rating={5.0}
+          reviews={30}
           country="USA"
           title="Learn wedding photography"
-          price="$126"
+          price={126}
         />
       </div>
     </div>

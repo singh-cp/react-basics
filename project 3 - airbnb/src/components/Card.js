@@ -16,7 +16,7 @@ export default function Card(props) {
         </p>
         <p className="experience-title">{props.title}</p>
         <p className="experience-price">
-          <span className="per-person">From {props.price}</span> / person
+          <span className="per-person">From ${props.price}</span> / person
         </p>
       </div>
     </div>
