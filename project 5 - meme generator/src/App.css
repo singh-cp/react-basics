@@ -1,0 +1,87 @@
+.header {
+  background-image: linear-gradient(
+    to right,
+    rgba(103, 34, 128, 1),
+    rgba(166, 38, 211, 1)
+  );
+  height: 65px;
+  width: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.troll-face {
+  width: 32px;
+  height: 27px;
+}
+.form-real {
+  width: 55%;
+}
+
+input {
+  padding: 0.8rem;
+  border: 1px solid #d5d4d8;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  min-width: 45%;
+}
+
+button {
+  background-image: linear-gradient(
+    to right,
+    rgba(103, 34, 128, 1),
+    rgba(166, 38, 211, 1)
+  );
+  outline: none;
+  border: none;
+  padding: 0.8rem;
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.meme-content {
+  position: relative;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+.meme-content p {
+  -webkit-text-stroke: 2px black;
+}
+
+#meme-img {
+  object-fit: cover;
+  max-width: 800px;
+}
